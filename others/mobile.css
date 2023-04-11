@@ -1,0 +1,79 @@
+#navbar {
+    display: none;
+}
+
+.pc {
+    display: none;
+}
+
+#mobilenav {
+    overflow: hidden;
+    padding-right: 5%;
+    padding-left: 5%;
+    position: sticky; top:0;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+#mobilenav img {
+    height: 80px;
+    float: left;
+}
+#mobilenav a {
+    float: right;
+    font-size: 36px;
+    margin: 15px;
+    color: #FFBC47;
+}
+
+nav,
+#closebutton {
+    display: none;
+}
+
+#home,
+#movies {
+    background-color: #FFF4E0;
+}
+
+#events
+#team {
+    background-color: #ffffff;
+}
+
+.content {
+    padding: 15px;
+    position: relative;
+}
+
+
+.text h1 {
+    color: hwb(38 26% 9%);
+    font-family: DM serif display;
+}
+
+.text {
+    font-family: Mulish;
+    color: hsl(38, 56%, 27%);
+    font-size: larger;
+}
+
+.text .button1 {
+    background: linear-gradient(0deg, hsl(37, 80%, 90%) 0%, #FFBC47 100%);
+    color: hsl(38, 56%, 38%);
+    border: 0px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.text .button2 {
+    background: linear-gradient(0deg, hsl(37, 80%, 90%) 0%, #FFBC47 100%);
+    color: hsl(38, 56%, 38%);
+    border: 0px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.mobile {
+    max-width: 80vw;
+}
