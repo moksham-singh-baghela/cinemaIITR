@@ -1,0 +1,90 @@
+body {
+    background: linear-gradient(90deg, #ffffff 50%, #FFBC47 50%);
+}
+
+#navbar {
+    overflow: hidden;
+    padding-right: 15%;
+    padding-left: 10%;
+    position: sticky; top:0;
+    background: linear-gradient(90deg, #ffffff 50%, #FFBC47 50%);
+    z-index: 1;
+}
+
+#navbar a {
+    float:right;
+    display: block;
+    color: #060606;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+#navbar a:hover {
+    background-color: hsla(260, 14%, 96%, 0.442);
+}
+#navbar img:hover {
+    scale: 1.1;
+}
+
+#navbar img {
+    height: 80px;
+    float: left;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.content {
+    height: 600px;
+    position: relative;
+}
+
+.text h1 {
+    color: hwb(38 26% 9%);
+    font-family: DM serif display;
+}
+
+.text {
+    position: absolute;
+    width: 30%;
+    top: 200px;
+    left: 10%;
+    font-family: Mulish;
+    color: hsl(38, 56%, 27%);
+}
+
+.text .button1 {
+    background: linear-gradient(0deg, hsl(37, 80%, 90%) 0%, #FFBC47 100%);
+    color: hsl(38, 56%, 38%);
+    border: 0px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.text .button2 {
+    background: linear-gradient(0deg, hsl(37, 80%, 90%) 0%, #FFBC47 100%);
+    color: hsl(38, 56%, 38%);
+    border: 0px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+button:hover {
+    scale: 1.1;
+}
+
+.content img {
+    position: absolute;
+    top: 200px;
+    right: 25%;
+    max-width: 30%;
+    max-height: 400px;
+    transform: translate( 50%, 0%);
+}
